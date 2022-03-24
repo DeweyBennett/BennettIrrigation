@@ -1,6 +1,6 @@
 import Logo from '../../components/_logo';
 import { Link } from '../../components/_links'
-import { menuItems, footerNav } from './Footer.data';
+import { menuItems, footerNav } from './ooter.data';
 import Widget from './Widget';
 
 

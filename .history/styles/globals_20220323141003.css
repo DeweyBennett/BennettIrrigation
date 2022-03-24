@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-default {
+    @apply inline-flex items-center justify-center  font-bold min-h-[50px] px-2 py-4 rounded-lg transition duration-300 ease-in-out whitespace-nowrap cursor-pointer;
+  },
+  .btn-primary {
+    @apply inline-flex items-center justify-center bg-primary text-white font-bold min-h-[60px] px-2 py-4 rounded-lg transition duration-300 ease-in-out whitespace-nowrap  cursor-pointer;
+  },
+  .btn-primaryOutline {
+    @apply inline-flex items-center justify-center border-[#FFC059] text-secondary font-bold min-h-[50px] px-2 py-4 rounded-lg transition duration-300 ease-in-out whitespace-nowrap hover:bg-secondary hover:text-white cursor-pointer;
+  }
+}
